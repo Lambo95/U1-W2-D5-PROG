@@ -45,13 +45,15 @@ button {
 .menu li a {
   text-decoration: none;
   color: black;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .menu li button {
   border: none;
+  font-size: 1.3rem;
   background: rgb(108, 193, 226);
   background: linear-gradient(90deg, rgba(108, 193, 226, 1) 51%, rgba(57, 47, 122, 1) 100%);
+  padding: 0.5em;
 }
 
 header {
@@ -77,6 +79,11 @@ header button {
   background: rgb(108, 193, 226);
   background: linear-gradient(90deg, rgba(108, 193, 226, 1) 51%, rgba(57, 47, 122, 1) 100%);
 }
+
+header button:hover {
+  box-shadow: 2px 2px 2px 2px#000;
+}
+
 /* MAIN */
 /* .margin_page {
  
@@ -86,6 +93,10 @@ header button {
   width: 100%;
   text-align: center;
 }
+.title_big {
+  font-size: 3rem;
+}
+
 /* Article 1*/
 .center {
   text-align: center;
@@ -99,6 +110,24 @@ header button {
 .card_box {
   padding: 1rem;
   margin: 1rem;
+  width: 100%;
+}
+
+#card_1_contatti > form > input {
+  width: 75%;
+  height: 2rem;
+  margin-bottom: 1rem;
+}
+
+#card_2_contatti p {
+  font-size: 1rem;
+}
+
+#submit_btn {
+  font-size: 1.3rem;
+  padding: 1rem;
+  background: rgb(108, 193, 226);
+  background: linear-gradient(90deg, rgba(108, 193, 226, 1) 51%, rgba(57, 47, 122, 1) 100%);
 }
 
 .card_o h2 {
@@ -238,3 +267,21 @@ footer p {
   text-align: center;
 }
 /* RESPONSIVE */
+
+@media screen and (max-width: 850px) and (min-width: 600px) {
+  .img_box {
+    height: 25vh;
+  }
+
+  header {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    box-shadow: #d3d3d3;
+  }
+
+  header button {
+    position: static;
+  }
+}
