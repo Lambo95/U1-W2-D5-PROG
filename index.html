@@ -7,48 +7,56 @@
   <meta name="description" content="Epicode School: contattaci per i corsi di Front End Developer">
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/stile.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
   <title>Epicode - Formazione Web Developer</title>
 </head>
 
 <body>
-  <header>
+  <section class="menu">
     <img src="./assets/images/logo.png" alt="Logo Epicode">
     <nav>
       <ul>
         <li> <a href="">Home</a></li>
         <li> <a href="">Chi Siamo</a></li>
         <li> <a href="">Contatti</a></li>
-        <li> <a href="">Registrati</a></li>
+        <li><button>Registrati</button></li>
       </ul>
     </nav>
-  </header>
-  <section>
-    <img src="./assets/images/banner.jpg" alt="Immagine scrivania e pc">
-    <h1>Diventa un developer EPICO</h1>
-    <p>Diventa un developer EPICO e ti troviamo noi il lavoro. Scommettiamo su dite: paghi metà corso, l'altra metà solo
-      quando inizi a lavorare. </p>
-    <button>Chiedi info</button>
   </section>
+  <header>
+    <h1>Diventa un developer EPICO</h1>
+    <p>Diventa un developer EPICO e ti troviamo noi il lavoro. Scommettiamo su dite: paghi metà<br> corso, l'altra metà
+      solo quando inizi a lavorare. </p>
+    <button>Chiedi info</button>
+  </header>
   <main>
     <article>
-      <h2>Perché diventare un Developer?</h2>
-      <p>Non servono laurea e competenze specifiche, solo impegno. <br>
+      <h2 class="center">Perché diventare un Developer?</h2>
+      <p class="center">Non servono laurea e competenze specifiche, solo impegno. <br>
         Segui il corso online, dove vuoi tu. <br>
         Il lavoro che andrai a fare è veramente figo.</p>
       <section class="card_o">
-        <div id="card_1">
-          <h3>Tutti ti cercheranno</h3>
+        <div class="card_box" id="card_1">
+          <h2>Tutti ti cercheranno</h2>
+          <br>
           <p>Sono 30.000 in Italia le posizioni di<br>developer scoperte, scegli quella che ti<br>stimola di più.</p>
         </div>
-        <div id="card_2">
-          <h3> Potrai lavorare dove<br>vuoi</h3>
+        <div class="card_box" id="card_2">
+          <h2> Potrai lavorare dove<br>vuoi</h2>
+          <br>
           <p>Non serve lavorare in ufficio per essere<br>creatori di prodotti digitali, e le aziende<br>lo sanno.
             Lavora da casa, in riva al mare<br>o in montagna.
           </p>
         </div>
-        <div id="card_3">
-          <h3>Azienda, Freelance o<br>Startup</h3>
-          <p>Scegli più facilmente la carriera e il<br>rapporto di lavoro che ti piace di più, in<br>qualsiasi momento.
+        <div class="card_box" id="card_3">
+          <h2>Azienda, Freelance o<br>Startup</h2>
+          <br>
+          <p>Scegli più facilmente la carriera e il<br>rapporto di lavoro che ti piace di più, in<br>qualsiasi
+            momento.
           </p>
         </div>
       </section>
@@ -58,25 +66,25 @@
       <p>Se non lo sai te lo diciamo noi: il futuro è dei developer</p>
       <button><a href="mailto:">Scrivici!</a></button>
     </section>
-    <article>
+    <article id="second_article">
       <img src="./assets/images/notebook.jpg" alt="Notebook Immagine">
       <section class="card_v">
-        <h3>Chi sarai</h3>
+        <h2>Chi sarai</h2>
         <p>Il creatore delle app che usi tutti i giorno</p>
-        <h3>Chi diventerai</h3>
+        <h2>Chi diventerai</h2>
         <p>Lo specialista padrone del suo tempo e spazio</p>
-        <h3>Chi non sarai</h3>
+        <h2>Chi non sarai</h2>
         <p>Il nerd incollato allo schermo</p>
       </section>
     </article>
   </main>
   <footer>
     <div class="card_footer">
-      <div id="first_card_footer">
+      <div class="card_box" id="first_card_footer">
         <h4>Chi siamo</h4>
         <p>Epicode School nasce con l'obiettivo di<br>rivoluzionare la formazione in ambito<br>tech.</p>
       </div>
-      <div id="second_card_footer">
+      <div class="card_box" id="second_card_footer">
         <h4>Ti piace ciò che vedi?<br>Condividilo con i tuoi amici!</h4>
         <ul>
           <li><a href="">icon</a></li>
@@ -84,10 +92,10 @@
           <li><a href="">icon</a></li>
         </ul>
       </div>
-      <div id="third_card_footer">
+      <div class="card_box" id="third_card_footer">
         <form action="">
           <h4>Iscriviti alla nostra newsletter</h4>
-          <input type="email" name="email_newsletter" id="email_newsletter">
+          <input type="email" name="email_newsletter" id="email_newsletter"> <br>
           <button>Va bene!</button>
         </form>
       </div>
