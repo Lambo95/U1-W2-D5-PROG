@@ -15,7 +15,9 @@ h2 {
   font-size: 3.5rem;
 }
 
-a {
+a,
+i {
+  font-size: 3rem;
   color: #e42424;
 }
 
@@ -79,6 +81,11 @@ header button {
 /* .margin_page {
  
 } */
+
+.card_o i {
+  width: 100%;
+  text-align: center;
+}
 /* Article 1*/
 .center {
   text-align: center;
@@ -97,6 +104,7 @@ header button {
 .card_o h2 {
   font-size: 2.5rem;
   text-align: center;
+  margin-bottom: 0;
 }
 .card_o p {
   font-size: 1.5rem;
@@ -107,6 +115,20 @@ header button {
   display: flex;
 }
 
+.img_box {
+  height: 60vh;
+}
+#img_chi_siamo_1 {
+  background-image: url(../images/foto1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#img_chi_siamo_2 {
+  background-image: url(../images/foto2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 table,
 tr,
 td,
