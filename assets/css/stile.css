@@ -76,7 +76,9 @@ header button {
   background: linear-gradient(90deg, rgba(108, 193, 226, 1) 51%, rgba(57, 47, 122, 1) 100%);
 }
 /* MAIN */
-
+/* .margin_page {
+ 
+} */
 /* Article 1*/
 .center {
   text-align: center;
@@ -99,6 +101,33 @@ header button {
 .card_o p {
   font-size: 1.5rem;
   margin-top: 0;
+}
+
+.card_chi_siamo {
+  display: flex;
+}
+
+table,
+tr,
+td,
+th {
+  text-align: center;
+  border: 1px solid white;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}
+th {
+  color: white;
+  background-color: #5f82a3;
+}
+.background_white {
+  background-color: white;
+  vertical-align: middle;
+}
+tbody:first-child,
+tbody:last-child {
+  background-color: #d2dce7;
 }
 
 /* Aside */
