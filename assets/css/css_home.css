@@ -1,0 +1,676 @@
+@media screen and (max-width: 500px) {
+  /* IMPOSTAZIONI GENERALI */
+  body {
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.1;
+  }
+
+  a,
+  i,
+  ul {
+    font-size: 2rem;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+
+  .menu {
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu img {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .menu nav ul {
+    display: none;
+  }
+
+  .menu button {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: none;
+    background-color: white;
+  }
+
+  /* HEADER */
+
+  header {
+    height: 80%;
+    width: 100%;
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    box-shadow: 3px #d3d3d3;
+    padding-bottom: 3rem;
+  }
+
+  header h1 {
+    padding-top: 2.5rem;
+    font-size: 3.8rem;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  header p {
+    font-size: 1.3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+
+  header button {
+    color: white;
+    font-size: medium;
+    margin-left: 1.5rem;
+    padding: 0.5rem;
+    font-size: medium;
+    background: rgb(108, 193, 226);
+    background: linear-gradient(90deg, rgba(108, 193, 226, 1) 51%, rgba(57, 47, 122, 1) 100%);
+  }
+
+  header button:hover {
+    box-shadow: 2px 2px 2px 2px#000;
+  }
+
+  /* MAIN */
+
+  main {
+    text-align: center;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .main_title {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  .margin_section {
+    margin-bottom: 2rem;
+  }
+
+  .card_box {
+    margin-top: 2rem;
+  }
+
+  .aside {
+    height: 60vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c0633;
+    margin-top: 2rem;
+  }
+
+  .aside button {
+    padding: 0.8rem;
+    margin-top: 1.2rem;
+    border: none;
+    background: rgb(108, 193, 226);
+    background: linear-gradient(90deg, rgba(108, 193, 226, 1) 51%, rgba(57, 47, 122, 1) 100%);
+  }
+
+  .aside button a {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+  }
+
+  .img_resp {
+    height: 40vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../images/notebook.jpg);
+  }
+
+  /* FOOTER */
+
+  footer {
+    width: 100%;
+    text-align: start;
+    line-height: 1.8;
+    margin-top: 3rem;
+    background-color: rgb(238, 238, 238);
+  }
+
+  .card_footer {
+    padding-top: 2rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  footer h3 {
+    line-height: normal;
+    font-weight: 500;
+  }
+
+  #copy {
+    font-size: small;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  #second_card_footer ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #third_card_footer button {
+    color: white;
+    width: 80%;
+    border: none;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: rgb(108, 193, 226);
+    background: linear-gradient(90deg, rgba(108, 193, 226, 1) 51%, rgba(57, 47, 122, 1) 100%);
+  }
+  #third_card_footer input {
+    width: 78%;
+    height: 2rem;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 850px) {
+  /* IMPOSTAZIONI GENERALI */
+  body {
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.1;
+  }
+
+  a,
+  i,
+  ul {
+    font-size: 2rem;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+
+  /* HEADER */
+
+  .menu {
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu img {
+    margin-left: 1rem;
+  }
+
+  #dot_menu {
+    display: none;
+  }
+
+  header {
+    height: 80%;
+    width: 100%;
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    box-shadow: 3px #d3d3d3;
+    padding-bottom: 3rem;
+  }
+
+  .container_flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top: 5rem;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  header p {
+    font-size: 1.3rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+
+  header button {
+    align-self: flex-start;
+    color: white;
+    font-size: medium;
+    padding: 0.5rem;
+    font-size: medium;
+    background: rgb(108, 193, 226);
+    background: linear-gradient(90deg, rgba(108, 193, 226, 1) 51%, rgba(57, 47, 122, 1) 100%);
+  }
+
+  header button:hover {
+    box-shadow: 2px 2px 2px 2px#000;
+  }
+
+  /* MAIN */
+
+  main {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  main h3 {
+    text-align: center;
+  }
+
+  .center {
+    text-align: center;
+  }
+  .main_title {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  .margin_section {
+    margin-bottom: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .card_box {
+    margin-top: 2rem;
+  }
+
+  .card_o {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card_o i {
+    width: 100%;
+    text-align: center;
+  }
+
+  .card_box {
+    padding: 1rem;
+    margin: 1rem;
+    width: 100%;
+  }
+
+  .card_v i {
+    display: inline;
+  }
+
+  .card_v h3 {
+    text-align: left;
+  }
+
+  .aside {
+    height: 60vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c0633;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .aside button {
+    padding: 0.8rem;
+    margin-top: 1.2rem;
+    border: none;
+    background: rgb(108, 193, 226);
+    background: linear-gradient(90deg, rgba(108, 193, 226, 1) 51%, rgba(57, 47, 122, 1) 100%);
+  }
+
+  .aside button a {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+  }
+
+  .img_resp {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../images/notebook.jpg);
+  }
+
+  /* FOOTER */
+
+  footer {
+    width: 100%;
+    text-align: start;
+    line-height: 1.8;
+    margin-top: 3rem;
+    background-color: rgb(238, 238, 238);
+  }
+
+  .card_footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card_footer {
+    padding-top: 2rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  footer h3 {
+    line-height: normal;
+    font-size: medium;
+    font-weight: bold;
+  }
+
+  #copy {
+    width: 80%;
+    font-size: small;
+    text-align: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  #second_card_footer ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #third_card_footer button {
+    color: white;
+    width: 100%;
+    border: none;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: rgb(108, 193, 226);
+    background: linear-gradient(90deg, rgba(108, 193, 226, 1) 51%, rgba(57, 47, 122, 1) 100%);
+  }
+  #third_card_footer input {
+    width: 94%;
+    height: 2rem;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  /* IMPOSTAZIONI GENERALI */
+  body {
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.1;
+  }
+
+  a,
+  i,
+  ul {
+    font-size: 2rem;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+
+  /* HEADER */
+
+  .menu {
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu img {
+    margin-left: 1rem;
+  }
+
+  #dot_menu {
+    display: none;
+  }
+
+  header {
+    height: 80%;
+    width: 100%;
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    box-shadow: 3px #d3d3d3;
+    padding-bottom: 3rem;
+  }
+
+  .container_flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top: 5rem;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  header p {
+    font-size: 1.3rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+
+  header button {
+    align-self: flex-start;
+    color: white;
+    font-size: medium;
+    padding: 0.5rem;
+    font-size: medium;
+    background: rgb(108, 193, 226);
+    background: linear-gradient(90deg, rgba(108, 193, 226, 1) 51%, rgba(57, 47, 122, 1) 100%);
+  }
+
+  header button:hover {
+    box-shadow: 2px 2px 2px 2px#000;
+  }
+
+  /* MAIN */
+
+  main {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  main h3 {
+    text-align: center;
+  }
+
+  .center {
+    text-align: center;
+  }
+  .main_title {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  .margin_section {
+    margin-bottom: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .card_box {
+    margin-top: 2rem;
+  }
+
+  .card_o {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card_o i {
+    width: 100%;
+    text-align: center;
+  }
+
+  .card_box {
+    padding: 1rem;
+    margin: 1rem;
+    width: 100%;
+  }
+
+  .card_v i {
+    display: inline;
+  }
+
+  .card_v h3 {
+    text-align: left;
+  }
+
+  .aside {
+    height: 60vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c0633;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .aside button {
+    padding: 0.8rem;
+    margin-top: 1.2rem;
+    border: none;
+    background: rgb(108, 193, 226);
+    background: linear-gradient(90deg, rgba(108, 193, 226, 1) 51%, rgba(57, 47, 122, 1) 100%);
+  }
+
+  .aside button a {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+  }
+
+  .img_resp {
+    width: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../images/notebook.jpg);
+  }
+
+  /* FOOTER */
+
+  footer {
+    width: 100%;
+    text-align: start;
+    line-height: 1.8;
+    margin-top: 3rem;
+    background-color: rgb(238, 238, 238);
+  }
+
+  .card_footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card_footer {
+    padding-top: 2rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  footer h3 {
+    line-height: normal;
+    font-size: medium;
+    font-weight: bold;
+  }
+
+  #copy {
+    width: 80%;
+    font-size: small;
+    text-align: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  #first_card_footer {
+    width: 40%;
+  }
+
+  #second_card_footer ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #third_card_footer button {
+    color: white;
+    width: 100%;
+    border: none;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: rgb(108, 193, 226);
+    background: linear-gradient(90deg, rgba(108, 193, 226, 1) 51%, rgba(57, 47, 122, 1) 100%);
+  }
+  #third_card_footer input {
+    width: 94%;
+    height: 2rem;
+  }
+}

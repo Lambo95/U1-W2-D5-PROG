@@ -274,9 +274,8 @@ footer p {
   }
 
   header {
-    background-image: url(../images/banner.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
+    height: 25vh;
+    background-size: cover;
     color: white;
     box-shadow: #d3d3d3;
   }
